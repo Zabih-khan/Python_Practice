@@ -1,0 +1,8 @@
+text_file = open("f1.txt", "r")
+a=int(text_file.read(1))
+text_file.read(1)
+b=int(text_file.read(1))
+text_file.read(1)
+c=int(text_file.read(1))
+print(a+b+c)
+text_file.close()
