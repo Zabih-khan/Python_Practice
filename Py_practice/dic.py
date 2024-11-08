@@ -1,4 +1,6 @@
-choice = ""
+
+choice =''
+
 geek={}
 while choice != "0":
   print(

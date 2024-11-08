@@ -1,21 +1,11 @@
-# A Python program to
-# demonstrate adding elements
-# in a set
+numbers = [1, 2, 6, 3, 1, 1, 5] 
 
-# Creating a Set
-people = {"Jay", "Idrish", "Archi"}
+unique_nums = set(numbers)
+print(unique_nums)
 
-print("People:", end = " ")
-print(people)
 
-# This will add Daxit
-# in the set
-people.add("Daxit")
+artist = {'Chagall', 'Kandinskij', 'Dalí', 'da Vinci', 'Picasso', 'Warhol', 'Basquiat'}
 
-# Adding elements to the
-# set using iterator
-for i in range(1, 6):
-	people.add(i)
-
-print("\nSet after adding element:", end = "")
-print(people)
+print('Turner' in artist) # check if there is Turner in the set artist
+artist.add('Turner')
+print(artist.pop()) #remove the last item
